@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURIA FÃS</title>
+    <link rel="stylesheet" href="/Register4/style.css">
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="signup_signin">
+          <div class="signup_title">
+            <h1>Registro</h1>
+            <p>Para finalizar, precisamos fazer uma análise facial</p>
+          </div>
+    
+          <!-- Botão para iniciar câmera -->
+          <button id="startCamera" class="botao">Ativar Câmera</button>
+          <video id="video" autoplay class="hidden"></video>
+    
+          <!-- Botão para capturar foto -->
+          <button id="takePhoto" class="botao hidden">Tirar Foto</button>
+          <canvas id="canvas" class="hidden"></canvas>
+    
+          <!-- Continuar após a simulação -->
+          <form id="continueForm" action="../home/initial.html" class="hidden">
+            <p>✅ Documentos analisados com sucesso</p>
+            <input type="submit" value="Continuar" class="botao" />
+          </form>
+        </section>
+    </main>
+
+    <script src="/Register4/script.js"></script>
+</body>
+</html>

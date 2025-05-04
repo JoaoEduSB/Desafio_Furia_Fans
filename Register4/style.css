@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #bdbdbd, #3d3d3d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.signup_signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.signup_title{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.signup_signin p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* .LogoIndex {
+    width: 350px;
+    height: 100px;
+    background-image: url(./Imagens/LogoIndex.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.forms_signup_signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.forms_signup_signin input[type="text"],
+.forms_signup_signin input[type="email"],
+.forms_signup_signin input[type="password"] {
+  /* width: 100%; */
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  outline: none;
+  transition: border-color 0.3s;
+  font-size: 15px;
+}
+
+.forms_signup_signin .ceplog, 
+.forms_signup_signin .bcen {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ceplog {
+    margin-top: 25px;
+}
+
+.ceplog .logradouro{
+    /* display: flex; */
+    width: 580px;
+    margin-left: 20px;
+}
+
+.ceplog .cep {
+    width: 250px;
+}
+
+.bcen .bairro {
+    width: 250px;
+}
+
+.bcen .cidade {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.bcen .estado {
+    width: 150px;
+}
+
+.bcen .numero {
+    width: 150px;
+}
+
+
+.forms_signup_signin input::placeholder {
+    color:rgb(0, 0, 0);
+}
+
+/* .forms_signup_signin input[type="submit"] {
+    width: 240px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+
+    align-self: center;
+} */
+
+.forms_signup_signin input[type="submit"]:hover {
+    background-color: #424242;
+}
+
+.register {
+    margin-bottom: 20px;
+}
+
+.remember_me {
+    display: flex;
+    align-items: center;
+    gap: 10px;;
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgb(223, 223, 223);
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+  }
+
+a:hover {
+    color:white;
+    transition: color 0.3s;
+}
+
+.existent_account p {
+    color: rgb(199, 190, 190);
+    font-size: 15px;
+  }
+  
+.existent_account a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+.existent_account a:hover {
+    color: #ffcc00; /* exemplo: muda cor no hover */
+  }
+
+  .inputfile {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #444;
+}
+
+.nome-arquivo {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.continuar {
+    width: 240px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    align-self: center;
+}
+
+video, canvas {
+    max-width: 100%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .botao {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
