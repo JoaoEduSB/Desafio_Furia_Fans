@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #bdbdbd, #3d3d3d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    z-index: 0;
+}
+
+.bg-image {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+    height: 100vh;
+    background: url('/Imagens/LogoIndex.png') no-repeat center center;
+    background-size: 300px; /* Faz a imagem caber inteira sem cortar */
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+#placa_amarela{
+    color:#FFFF00;
+    margin-left: 8px;
+}
+
+.lista_missoes h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.missoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.missoes-container h2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.missoes-container h2 a {
+    text-decoration:none ;
+    color: #fff;
+}
+
+.moeda_furiosa {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
