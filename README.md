@@ -1,5 +1,5 @@
 # Desafio_Furia_Fans
-Projeto de uma plataforma para fãs da FURIA. Foi desenvolvido essa solução proposta para o desafio Hard da Furia.
+Projeto de um protótipo de uma plataforma para fãs da FURIA. Foi desenvolvido essa solução proposta para o desafio Hard da Furia.
 
 ## Funcionalidades
 - Telas de Registro
